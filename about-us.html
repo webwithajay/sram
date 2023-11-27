@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about-us</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .aj {
+            border: solid;
+            border-radius: 34px;
+        }
+        .shiv{
+            margin-top:120px;
+        }
+        .nav-item a:hover{
+            color: rgb(255, 255, 255);
+            background-image: linear-gradient(to right, #024600, #e04d1c);
+            border-radius: 30px;
+      }
+       .nav-item a:hover a{
+        color: white;
+       }
+       .nav-item:hover .fa{
+        color: white;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-sm bg-warning navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="img/logo.png" width="100px" height="80px">
+            </a>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mymenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mymenu">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link text-white"> <i class="fa fa-home"></i>Home</a>
+
+                    </li>
+                    <li class="nav-item">
+                        <a href="about-us.html" class="nav-link text-white"> <i class="fa fa-user"></i>About us</a>
+
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#" data-bs-toggle="dropdown" class="nav-link text-white dropdown-toggle"> <i
+                                class="fa fa-solid fa-cart-shopping"></i>Category</a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-item"><a href="#">Fashion</a></li>
+                            <li class="dropdown-item"><a href="#">Grocery</a></li>
+                            <li class="dropdown-item"><a href="#">Electronics</a></li>
+                            <li class="dropdown-item"><a href="#">Shoes</a></li>
+
+
+                        </ul>
+
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a href="tel:+916392675114" class="nav-link text-white"> <i class="fa fa-phone"></i>Call-us</a>
+
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+        <div class="px-5">
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                data-bs-target="#mymodal">ENQUIRY</button>
+
+        </div>
+
+        <!-- #########################################################modal box##n############################################## -->
+        <div id="mymodal" class="modal fade">
+            <div class="modal-dialog modal-md">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        ENQUIRY WITH US
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+
+                    </div>
+                    <div class="modal-body">
+                        <form method="post" action="index.html" enctype="multipart/form-data">
+                            <div class="form-group">
+                                <strong>Name</strong>
+                                <input type="text" class="form-control" placeholder="type your name" required>
+
+                            </div>
+                            <div class="form-group">
+                                <strong>Email</strong>
+                                <input type="email" class="form-control" placeholder="type your email" required>
+
+                            </div>
+                            <div class="form-group">
+                                <strong>Contact Number</strong>
+                                <input type="number" class="form-control" placeholder="type your phone number" required>
+
+                            </div>
+                            <div class="form-group">
+                                <strong>Text Message</strong>
+                               <textarea class="form-control" placeholder="type your message"></textarea>
+                            </div>
+                            <!-- <div class="form-group">
+                                <strong>Adhar number</strong>
+                                <input type="number" class="form-control" placeholder="type your adhar number" required>
+
+                            </div> -->
+                            <div class="form-group">
+                                <strong>Address</strong>
+                                <textarea class="form-control" placeholder="type your address"></textarea>
+                            </div>
+                            <!-- <div class="form-group">
+                                <strong>Uplode Document</strong>
+                                <input type="file" class="form-control" accept=".pdf,.doc,.docx,image/*" required>
+
+                            </div> -->
+                            <input type="submit" class="btn btn-primary" value="Enter">
+
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </nav>
+    <!-- ##########################################################body################################################################################## -->
+    <div class="row">
+
+        <div class="col-lg-6 col-md-6 col-6 p-4">
+            <img src="ab.jpeg" style="width: 230px;height:280px ;" class="aj ">
+            <img src="ab1.webp" style="width: 230px;height: 280px;" class="aj mt-5">
+            
+
+
+        </div>
+        <div class="col-lg-6 col-md-6 col-6  my-5">
+            <h4>
+                About-us
+            </h4>
+            <p>Be more fashionable with shopping SRAM.we provide home delevery .Sram provide lots of fashionable
+                products.you can buy every thingsat Sram.you will be happy when you will find that all products are so
+                good in minimum cast.</p>
+                <img src="img/bag2.jpeg" style="width: 190px;height: 230px;border: solid;border-radius: 34px;">
+                <img src="img/g1.webp" style="width: 160px;height: 200px;border: solid;border-radius: 34px;" class="mt-5">
+                <img src="img/w1.webp" style="width: 140px;height: 180px;border: solid;border-radius: 34px;" class="shiv">
+
+
+        
+        </div>
+        
+
+    </div>
+
+    <footer class=mt-5 style="background-color: whitesmoke;">
+        <div class=" row footer mt-5">
+            <div class="col-lg-3 col-md-3 col-3 ">
+
+                <a class="navbar-brand" href="#">
+                    <img src="img/logo.png" width="100px" height="80px">
+                </a>
+                <p class="px-3">
+                    takiya,<br>209801 <br>safipur unnao<br>sramgharelusaman@gmail.com
+                </p>
+            </div>
+            <div class="col-lg-3 col-md-3 col-3">
+                <h4>Useful links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about-us.html">About-us</a></li>
+                    <li><a href="#">Category</a></li>
+                    <li><a href="#">Call-us</a></li>
+                </ul>
+
+            </div>
+            <div class="col-lg-3 col-md-3 col-3">
+                <h4>Categories</h4>
+                <ul>
+                    <li>Sport Shoes</li>
+                    <li>Leather Shoes</li>
+                    <li>Leather Bags</li>
+                    <li>Ladies Fashion</li>
+                    <li>Mens Fashion</li>
+                    <li>Sport Watch</li>
+                    <li>Grocery</li>
+                    <li>Beauty Cream</li>
+
+                </ul>
+
+            </div>
+
+            <div class="col-lg-3 col-md-3 col-3">
+                <h4>Contact-number</h4>
+                
+                <ul>
+                    <li> <a href="tel:+916392675114"><i class="fa fa-phone"></i>+916392675114</a></li>
+                    <li><a href="mailto:sramgharelusaman@gmail.com"><i class="fa fa-envelope"></i>sramgharelusaman@gmail.com</a></li>
+                    
+
+                </ul>
+
+            </div>
+
+
+        </div>
+    </footer>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+
+
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 3
+                },
+                1000: {
+                    items: 5
+                }
+            }
+        })
+    </script>
+</body>
+
+</html>
